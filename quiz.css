@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  position: relative;
+  overflow-x: hidden !important;
+}
+
+body {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: points;
+  background-color: #4b0082; /* Dark purple background */
+  background-image: url("data:image/jpeg;base64,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");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  padding-top: 150px;
+}
+
+main {
+  box-shadow: 0 10px 6px -6px #777;
+  color: #000;
+  background: #ffffff; /* White background */
+  border-radius: 10px;
+  padding: 50px 40px;
+  width: 95%;
+  max-width: 590px;
+  margin: auto;
+}
+
+.text-container {
+  text-align: center;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+input[type="radio"] + label:hover {
+  border: 1px solid #000;
+}
+
+input[type="radio"]:checked + label {
+  background-color: rgb(221, 14, 193);
+  color: #fff;
+  border: 1px solid rgb(78, 6, 66);
+  transition: all 0.2s ease-in-out;
+}
+
+.wrongans {
+  background-color: #f36;
+  color: #fff;
+  border: 1px solid #f36;
+  transition: all 0.2s ease-in-out;
+}
+
+.end {
+  margin: auto;
+}
+
+.button.is-fullwidth {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+}
