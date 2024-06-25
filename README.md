@@ -35,9 +35,6 @@ source venv/bin/activate
 # Install the required packages:
 pip install -r requirements.txt
 
-# Run the application:
-flask run
-Open your browser and navigate to http://localhost:5000.
 
 # Usage
 Upload a document in TXT or PDF format.
