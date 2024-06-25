@@ -1,0 +1,22 @@
+```yaml
+# Duration of inactivity before an issue is marked as stale
+daysUntilStale: 60
+
+# Duration of inactivity before a stale issue is closed
+daysUntilClose: 7
+
+# Labels that prevent issues from being marked as stale
+exemptLabels:
+  - pinned
+  - security
+
+# Label assigned to issues when they become stale
+staleLabel: stale
+
+# Message posted when an issue is marked as stale. Set to `false` to disable
+markComment: >
+  This issue has been marked as stale due to inactivity. It will be closed if no further activity occurs. Thank you for your contributions.
+
+# Message posted when a stale issue is closed. Set to `false` to disable
+closeComment: false
+```
